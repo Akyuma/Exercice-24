@@ -19,7 +19,7 @@ namespace Exercice_24
 
             for (int i = 1; i < 10; i++)
             {
-                Console.Write("Saisissez une température : ");
+                Console.Write("Saisissez la température : ");
                 double compte = double.Parse(Console.ReadLine());
                 if (compte > nbGrand)
                 {
