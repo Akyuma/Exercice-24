@@ -14,7 +14,7 @@ namespace Exercice_24
         {
             double nbGrand, nbPetit;
 
-            Console.Write("Saisissez une température : ");           
+            Console.Write("Saisissez les température : ");           
             nbGrand=nbPetit= double.Parse(Console.ReadLine());
 
             for (int i = 1; i < 10; i++)
